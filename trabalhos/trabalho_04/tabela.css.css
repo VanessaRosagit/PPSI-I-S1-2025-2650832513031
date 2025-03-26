@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* ISSO auqi é um comentário no CSS */
+/* Esse CSS aqui embaixo está atuando na tabela */
+table {
+    background-color: rgba(110, 116, 32, 0.452);
+}
+
+table,
+
+tr,
+td {
+    border: solid 2px white;
+    padding: 3px;
+    color: black;
+}
+
+ th,
+ #criado-por
+
+{
+
+    border: solid 2px rgb(247, 13, 215);
+
+}

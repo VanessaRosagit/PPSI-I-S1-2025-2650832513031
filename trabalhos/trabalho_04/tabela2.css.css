@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0f90ccad;
+    color: white;
+}
+
+.highlight {
+    background-color: #D9E2EC;
+}
+
+.red {
+    color: red;
+}
+
+#teto-cotribuicao, #col-1-familia {
+    width: 290px;
+}
+
+#valor-teto-contribuicao {
+    background-color: white;
+    color: black;
+}

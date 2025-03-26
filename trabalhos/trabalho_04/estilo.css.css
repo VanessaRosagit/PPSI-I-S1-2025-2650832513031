@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS "Cascade Style Sheet" ou "Folha de Estilo em Cascata" */
+/* Quando uma mesma propriedadse é definida mais de uma vez, a última prevalece
+reescrevendo a anteriormente declarada */
+/* essa declaração abaixo, pinta o BODY de preto */
+/* Seletor simples */
+/*body { background-color: rgb(6, 74, 95); }
+/* agora vamos testar a CASCATA do CSS */
+/* primeiro o CSS pintou o BODY de preto, agora pntou de amarelo, a segunda definição,
+ou seja a mais "profunda" na cascata prevaleceu */
+body { background-color: rgba(227, 243, 8, 0.753); }
+h1 { font-size: 50px; }
+h2 { font-size: 25px; }
+h3 { font-size: 15px; }
+h1 { text-transform: uppercase; }
+h2 { text-transform: capitalize; }
+/* seletor agrupado */
+/* todos os elementos listados são igalmente afetados */
+header, nav, aside, article, section, footer {
+border: dashed 2px rgb(231, 17, 117);
+background-color: rgba(243, 240, 234, 0.521);
+}
+/*article { background-color: aquamarine; }
+/* pequena declaração para deixar o menu horizontal */
+/* é uma das formas mais recorrentes de se fazer um MENU de navegação */
+li { display: inline; }
