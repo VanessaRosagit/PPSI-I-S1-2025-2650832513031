@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* essa definição abaixo foi feita só para dar o exemplo durante a aula, destacando o fluxo
+nautral do dodumento com uma borda pontilhada em cada box */
+/*
+header, nav, article, aside, footer {
+border: 1px dotted black;
+}
+*/
+/* seletor simples */
+html {
+background-color: lightgray;
+}
+/* seletor com duas propriedades */
+body {
+background-color: white;
+font-size-adjust: 100%;
+}
+/* seletor agrupado */
+header, nav, article, aside, footer {
+background-color:none ;
+margin: 20px;
+}
+/* este seletor aplica 60px em cima e embaixo e 20px dos lados*/
+/*nav { margin: 60px 20px; }*/
+/* este seletor aplica a margem em sentido horário */
+/* topo, direita, base, esquerda */
+/* top, right, bottom, left */
+/*nav { margin: 10px 50px 80px 100px; }*/
+/* neste caso abaixo estamos fazendo o controle com uma propriedade diretamente definida
+*/
+/*nav { margin-left: 100px; }*/
+/* para aplicar apenas uma das propriedades você pode usar o nome completo do seletor
+como no exemplo abaixo:*/
+/*
+aside {
+margin-left: 150px;
+margin-bottom: 83px;
+margin-right: 25px;
+margin-top: 42px;
+}
+*/
+p {
+font-family: 'Caveat', cursive;
+font-size: 1.5em;
+text-align: justify;
+padding: 10px;
+}
+/* seletor encadeado, ou seja, a propriedade é aplicada no último elemento. */
+ul li {
+display: inline;
+}
+ul li a {
+/* topo, direita, base, esquerda */
+padding: 0px 15px 0px 15px;
+/* clor é a cor da fonte*/
+color: darkblue;
+text-transform: uppercase;
+text-decoration: none;
+font-size: 1.1em;
+}
+/* PSEUDO SELETORES */
+ul li a:hover {
+color: white;
+background-color: darkblue;
+}
+/* Abaixo estamos referenciando uma CLASSE.
+As classes podem ser repetidas em diversos elementos no HTML */
+.nomediscreto {
+font-weight: normal;
+text-transform: uppercase;
+font-size: .8em;
+text-align: left;
+color: darkgrey;
+}
+.nomediscreto:hover {
+color: red;
+}
+/* Ajustar o posicionamento */
+body {
+width: 980px;
+/* top, right, bottom, left */
+/* Zera o espaço no topo e base (0px) e "auto" para esquerda e direita. Essa linha de CSS
+faz o Body ser alinhado no meio da tela, seja qual for seu tamanho. */
+margin: 0px auto 0px auto;
+}
+article {
+width: 570px;
+margin-top: 0px;
+float: left;
+}
+aside {
+width: 330px;
+margin-top: 0px;
+float: left;
+}
+footer {
+/* background-color: red;*/
+clear: both;
+}
+em {
+font-weight: bold;
+color: #b61a00;
+}
+h3 {
+font-size: 2.5em;
+padding-left: 45px;
+}
