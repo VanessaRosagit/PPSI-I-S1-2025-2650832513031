@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Página de Formulários</title>
+</head>
+
+<body>
+    <form action="https://www.google.com/search" method="get">
+        <label>Google:
+            <input type="search" name="q">
+        </label>
+        <input type="submit" value="Buscar">
+    </form>
+    <hr>
+    <form>
+        <p><label>Nome do Cliente:
+                <input>
+            </label>
+        </p>
+        <p>
+            <label>Telephone:
+                <input type=tel>
+            </label>
+        </p>
+        <p>
+            <label>Senha:
+                <input type=password>
+            </label>
+        </p>
+        <p>
+            <label>E-mail:
+                <input type=email>
+            </label>
+        </p>
+        <fieldset>
+            <legend>Tamanho da Pizza - legenda do Field Set (Conjunto de Campos)</legend>
+            <p><label><input type=radio name=tamanho> Pequena </label></p>
+            <p><label> <input type=radio name=tamanho> Média </label></p>
+            <p><label> <input type=radio name=tamanho> Grande </label></p>
+        </fieldset>
+        <fieldset>
+            <legend> Ingredientes extras na Pizza </legend>
+            <p><label> <input type=checkbox> Bacon </label></p>
+            <p><label> <input type=checkbox> Queijo Extra </label></p>
+            O tal do DIV e os elementos SEM valor
+            semântico
+            <p><label> <input type=checkbox> Cebola </label></p>
+            <p><label> <input type=checkbox> Champignons </label></p>
+        </fieldset>
+        <p>
+            <label>Horário preferido para entrega:
+                <input type=time min="11:00" max="21:00" step="900"></label>
+        </p>
+        <p><label> <input type=color> Escolha a cor da sua pizza </label></p>
+        <p>
+            <label>Instruções para entrega:
+                <textarea></textarea>
+            </label>
+        </p>
+        <p>
+            <label for="cafes">Escolha seus cafés favoritos:</label><br>
+            <select id="cafes" name="cafes" multiple size="5">
+                <option value="affogato">Affogato</option>
+                <option value="americano">Americano</option>
+                <option value="bicerin">Bicerin</option>
+                <option value="breve">Breve</option>
+                <option value="bombon">Café Bombón</option>
+                <option value="corretto">Café Corretto</option>
+                <option value="crema">Café Crema</option>
+                <option value="latte">Café Latte</option>
+                <option value="macchiato">Café Macchiato</option>
+                <option value="melange">Café Mélange</option>
+            </select>
+        </p>
+        <p>
+            <label for="color">Color</label>
+            <select id="color" name="color" >
+                <option selected>Select color</option>
+                <option>Red</option>
+                <option>Orange</option>
+                <option>Yellow</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Purple</option>
+                <option>Pink</option>
+            </select>
+        </p>
+        <p>
+            <button>Enviar</button>
+        </p>
+    </form>
+</body>
+
+</html>
