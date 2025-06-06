@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* essa definição abaixo foi feita só para
+dar o exemplo durante a aula do fluxo
+nautral do dodumento*/
+/* header, nav, article, section, aside, footer {
+border: dashed 1px blue;
+} */
+/* seletor simples */
+html {background-color: lightgray;}
+/* seletor simples com duas propriedades */
+body {
+background-color: white;
+font-size-adjust: 100%;
+}
+/* seletor agrupado */
+header, nav, article, aside, footer {
+margin: 20px;
+background-color: #1A2440;
+}
+p {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.1em;
+text-align: justify;
+padding: 10px; /*espacinho em volta do P*/
+}
+ul li { display: inline; }
+ul li a {
+color: #CBC3B6; /* cor da fonte */
+text-transform: uppercase;
+text-decoration: none;
+font-size: 1.1em;
+}
+/* Abaixo estamos referenciando uma CLASSE.
+As classes podem ser repetidas em diversos elementos no HTML */
+.nomediscreto {
+font-weight: normal;
+text-transform: uppercase;
+font-size: .8em;
+text-align: left;
+color: #8C818C;
+}
+article {
+/* web color pallete */
+background-color: #656D6D;
+/* hexadecimal */
+background-color:#6B7895;
+/* RGB */
+background-color: hsla(146, 12, 30, 1); color: #2f2a26; 
+/* HSL/HSV */
+background-color: hsla(146, 12, 30, 1); color: #062212;
+}

@@ -1,10 +1,11 @@
-# Trabalho [Atividade de fixação 08]
+# Trabalho [Atividade de fixação 09]
 
 **Nome**: [Vanessa Aparecida Rosa da Silva]
 **Email**: [vanessa.silva166@fatec.sp.gov.br]
 **GitHub ID**: [Vanessa Rosagit]
 **R.A.**: [2650832513031]
 **Descrição do trabalho**:
-[Posicionamento do Box-Model com CSS
-Seletores CSS para o posicionamento do Box-Model;
-Aprofundamento do conceito de classes no CSS e sua aplicação a elementos HTML]
+[Projeto Integrador
+Em grupo os alunos continuam o Projeto Integrador. Atividades sugeridas:
+1 Continuação dos Wireframes
+2 Estrutura dos HTML]
